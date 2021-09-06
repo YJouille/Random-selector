@@ -1,16 +1,39 @@
+body{
+   /* background-color : rgba(0, 0, 0, 0.2) ; */
+}
 header{
     /* border : 1px dotted red; */
 }
+
+.titre{
+    display: flex;
+    width: 100 vw;
+    height: 150px;
+    background-color:gray;
+    text-align: center;
+    align-items: center;
+    font-family: Roboto;
+}
+
 main{
-    height: 700px;
+    height: auto;
+    
     /* border : 1px dotted blue; */
+}
+.selector{
+    
+    background-color : rgba(0, 0, 0, 0.1) ;
+
 }
 #randomBtn{
  width: auto;
+
 }
 .col{
+    margin: 3%;
     /* border : 1px dotted black; */
 }
 footer{
     /* border : 1px dotted green; */
+    background-color: rgba(0, 0, 0, 0.2);
 }
