@@ -17,29 +17,35 @@
 
 <body>
     <header>
-        Header
+        <h1>
+            <div class="container text-center">Random Selector</div>
+        </h1>
     </header>
 
     <main>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <button id="randomBtn">Choisir un apprenant</button>
-                </div>
-                <div class="col">
-                    <h3>Liste des apprenants pas passés</h3>
+                    <h3>Liste des apprenants non sélectionnés</h3>
                     <div id="noSelected"></div>
                 </div>
+                <div class="col text-center">
+                    <button type="button" class= "btn btn-outline-secondary" id="randomBtn">Sélectionner un apprenant</button>
+                </div>
                 <div class="col">
-                    <h3>Liste des apprenants passés</h3>
+                    <h3>Liste des apprenants sélectionnés</h3>
                     <div id="selected"></div>
                 </div>
             </div>
         </div>   
     </main>
-    <footer>
-        Footer
-    </footer>
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2021 Copyright : Random Selector
+        </div>
+        <!-- Copyright -->
+      </footer>
     <script src="js/main.js"></script>
 </body>
 </html>

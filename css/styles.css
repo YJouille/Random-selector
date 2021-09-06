@@ -1,12 +1,16 @@
 header{
-    border : 1px dotted red;
+    /* border : 1px dotted red; */
 }
 main{
-    border : 1px dotted blue;
+    height: 700px;
+    /* border : 1px dotted blue; */
+}
+#randomBtn{
+ width: auto;
 }
 .col{
-    border : 1px dotted black;
+    /* border : 1px dotted black; */
 }
 footer{
-    border : 1px dotted green;
+    /* border : 1px dotted green; */
 }
