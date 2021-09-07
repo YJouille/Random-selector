@@ -1,39 +1,94 @@
-body{
-   /* background-color : rgba(0, 0, 0, 0.2) ; */
-}
-header{
-    /* border : 1px dotted red; */
+body {    
+    font-family: 'Open Sans', sans-serif;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(89deg, #D9AFD9 0%, #d7e1e2 100%);
+    padding-top: 5%;
 }
 
-.titre{
-    display: flex;
-    width: 100 vw;
-    height: 150px;
-    background-color:gray;
+.descriptif{
+    padding: 10px;
+}
+
+.selector {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(331deg, #D9AFD9 0%, #d7e1e2 100%);
+    width: 40vw;
+    padding: 45px;
+    box-shadow: 8px 4px 30px 0px rgb(203 148 203 / 68%);
+    -moz-box-shadow: 8px 4px 30px 0px rgb(203 148 203 / 68%);
+    -webkit-box-shadow: 8px 4px 30px 0px rgb(203 148 203 / 68%);
+    border-radius: 10px;
+}
+
+#randomBtn {
+    background-image: linear-gradient(to right, #885288 0%, #d7e1e2 51%, #D9AFD9 100%)
+}
+
+#randomBtn {
+    margin: 10px;
     text-align: center;
-    align-items: center;
-    font-family: Roboto;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: block;
+    width: auto;
+    border: none;
 }
 
-main{
-    height: auto;
-    
-    /* border : 1px dotted blue; */
-}
-.selector{
-    
-    background-color : rgba(0, 0, 0, 0.1) ;
+#randomBtn:active {
+    outline: none;
+    border: none;
+    box-shadow:none;
+    }
+#randomBtn:focus {outline:0;}
 
+#randomBtn:hover {
+    background-position: right center;
+    text-decoration: none;
+    box-shadow: 0 5px 10px black;
 }
-#randomBtn{
- width: auto;
 
+#noSelected {
+  padding: 10px;
 }
-.col{
-    margin: 3%;
-    /* border : 1px dotted black; */
+
+
+#selected {
+    padding: 10px;
 }
-footer{
-    /* border : 1px dotted green; */
-    background-color: rgba(0, 0, 0, 0.2);
+#result{
+    font-weight: 800;
+    font-size: 20px;
+    height: 40px;
+}
+
+.footer{
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(331deg, #D9AFD9 0%, #d7e1e2 100%);
+    width: 40%;
+    margin: 40px;
+    padding: 20px;
+    box-shadow: 8px 4px 30px 0px rgb(203 148 203 / 68%);
+    -moz-box-shadow: 8px 4px 30px 0px rgb(203 148 203 / 68%);
+    -webkit-box-shadow: 8px 4px 30px 0px rgb(203 148 203 / 68%);
+    border-radius: 8px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 960px) {
+    h3{
+        /* font-size: calc(1.75rem - 8vw); */
+    }
+    h4{
+
+    }
+    h5{
+
+    }
+    .selector{
+        width: calc(40vw + 100px);
+    }
 }
